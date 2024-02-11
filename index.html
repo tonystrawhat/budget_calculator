@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Element</title>
+    <!-- CSS link tag for Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background-image: url('./budget.jpg');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 10vw; /* Set font size relative to viewport width */
+            
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+        }
+        
+        .centered-element {
+            
+            text-align: center;
+            color: white; /* Set text color to white for visibility */
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 1%;
+        }
+
+        .btn {
+           
+            border-radius: 10px; /* Add border radius for rounded corners */
+            padding: 15px 30px; /* Add padding for button size */
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.2); /* Add box shadow for 3D effect */
+            transition: all 0.3s ease; /* Add transition for smooth hover effect */
+        }
+
+        
+       
+    </style>
+</head>
+<body>
+    <div class="centered-element">
+        <h1 >Budget Calculator</h1>
+    </div>
+    <div class="container">
+        <a href="register.html" class="btn btn-primary mt-5 m-2">Register</a>
+        <a href="login.html" class="btn btn-primary mt-5 m-2">Login</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
