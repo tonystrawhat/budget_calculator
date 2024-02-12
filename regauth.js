@@ -13,7 +13,7 @@ function saveUserData(event) {
 
     // Save user data to local storage
     localStorage.setItem(username, password);
-    window.location.href="login.html";
+    window.location.href="./login.html";
 
     alert("Registration successful!");
 }
