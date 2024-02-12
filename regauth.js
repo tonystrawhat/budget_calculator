@@ -33,7 +33,7 @@ function loginUser(event) {
     const storedPassword = localStorage.getItem(username);
     if (storedPassword && storedPassword === password) {
         // Redirect to dashboard.html or perform other actions
-        window.location.href = "dashboard.html";
+        window.location.href = "./Dashboard.html";
         // After successful login
         localStorage.setItem('loggedInUser', username);
     } else {
