@@ -18,7 +18,7 @@ Developed a budget management application using JavaScript, HTML, and CSS. The a
 
 🏆 **Achievements:**
 - Successfully developed a fully functional budget management application, meeting user requirements and expectations.
-- Implemented robust security measures to safeguard user data and ensure data integrity.
+
 
 
 
